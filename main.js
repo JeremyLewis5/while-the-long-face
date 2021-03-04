@@ -9,12 +9,13 @@ function numberDoubler(num) {
  }
  //console.log('Output num:', outputNum);
 
- function stringRepeater(str) {
+ function stringRepeater(str, num) {
      let string = str;
+     let num1 = 4;
       while (string <= 10) {
-        console.log(string);  
-        string = string + string;
-
+        //console.log(string);  
+        string = str * num1;
+        
       }
      return string;
  }
